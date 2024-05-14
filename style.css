@@ -204,6 +204,7 @@ a{
 
 li{
     list-style-type: none;
+    padding: 5px;
 }
 
 #resultsbox p{
