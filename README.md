@@ -2,7 +2,7 @@
 ####Miles Butt (psymb18)
 
 ###Light House Test
-![Screenshot of Lighthouse results](lighthouse.jpg)
+![Screenshot of Lighthouse results](./lighthouse.jpg)
 This Lighthouse 'Report' shows 100% perforamce and accesibility for my coursework website
 
 
