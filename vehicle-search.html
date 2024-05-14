@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="javascript.js" type="module"></script>  
+    <title>Vehicle Search</title>
+</head>
+<body>
+    <div id="container"> <!--Ask about useage of divs-->
+        <header>
+            <h1>Vehicle Search</h1>
+            <nav>
+                <ul>
+                    <li><a href="people-search.html"> People Search</a></li>
+                    <li><a href="vehicle-search.html">Vehicle Search</a></li>
+                    <li><a href="add-vehicle.html"> Add a Vehicle</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--Ask about useage of divs-->
+            <aside id="sidebar">
+                <img src="/Images/codeicon.svg" alt="a small coding icon">
+            </aside>
+            <main>
+                <form id="input">
+                    <ul>
+                        <li>
+                            <label for="name"> Vehicle Registration:</label>
+                            <input type="text" id="rego" name="vehicle-reg">
+                        </li>
+                    </ul>
+                    <button type='button' id="searchVehicle">Submit</button>
+                </form>
+                <div class="spacing"></div>
+                <div id="results">
+                    <div id="resultbox">
+                    </div>
+                </div>
+                <div id="message"><div>
+            </main>
+<!--Ask about useage of divs-->
+        <footer>
+            <p>This website is built by Miles Butt for the COMP1004 Coursework</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="javascript.js" type="module"></script>  
+    <title>People Search</title>
+</head>
+<body>
+    <div id="container"> 
+        <header>
+            <h1>People Search</h1>
+            <nav>
+                <ul>
+                    <li><a href="people-search.html"> People Search</a></li>
+                    <li><a href="vehicle-search.html">Vehicle Search</a></li>
+                    <li><a href="add-vehicle.html"> Add a Vehicle</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside id="sidebar">
+            <img src="/Images/codeicon.svg" alt="a small coding icon">
+        </aside>
+        <main>
+            <form id="input">
+                <ul>
+                    <li>
+                        <label for="name">Search by driver name:</label>
+                        <input type="text" id="name" name="driver_name">
+                    </li>
+                    <li>
+                        <label for="license">Search by driving license number:</label>
+                        <input type="text" id="license" name="license_number">
+                    </li>
+                </ul>
+                <button type='button' id="searchPeople">Submit</button>
+            </form>
+            <div class="spacing"></div>
+            <div id="results">
+                <div id="resultsBox">
+                </div>
+            </div>
+            <div id="message"><div>
+        </main>
+        <footer>
+            <p>This website is built by Miles Butt for the COMP1004 Coursework</p>
+        </footer>
+    </div>
+</body>
+</html>
