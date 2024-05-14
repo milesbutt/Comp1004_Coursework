@@ -1,13 +1,13 @@
-#COMP1004: Databases and Interfaces Coursework
-####Miles Butt (psymb18)
+# COMP1004: Databases and Interfaces Coursework
+#### Miles Butt (psymb18)
 
-###Light House Test
+### Light House Test
 ![Screenshot of Lighthouse results](https://github.com/milesbutt/Comp1004_Coursework/blob/290351f1077dcaa8e79f56a6bffbd537272e3e2e/lighthouse.png)
 This Lighthouse 'Report' shows 100% perforamce and accesibility for my coursework website
 
 
-###Additional Test
-#####Test 1:
+### Additional Test
+##### Test 1:
 ```
  test('null entries - vehicle', async ({ page }) => {
     await page.getByRole('link', { name: 'Vehicle search' }).click();
@@ -20,7 +20,7 @@ This Lighthouse 'Report' shows 100% perforamce and accesibility for my coursewor
 This test checks to see if submitting an empty/ null vehicle registration plate into the form will display an error message on page.
 
 
-#####Test 2:
+##### Test 2:
 ```
  test('null entries - person', async ({ page }) => {
     await page.getByRole('link', { name: 'People search' }).click();
@@ -34,7 +34,7 @@ This test checks to see if submitting an empty/ null vehicle registration plate 
 Similar to the first test, this test checks if submitting a null/ empty name and license number will will display an error message on page.
 
 
-#####Test 3:
+##### Test 3:
 ```
  test('two entries at once', async ({ page }) => {
     await page.getByRole('link', { name: 'People search' }).click();
@@ -48,7 +48,7 @@ Similar to the first test, this test checks if submitting a null/ empty name and
 This test checks that if 2 entries are entered into the form then it will cause an error message to be displayed onto the page.
 
 
-#####Test 4:
+##### Test 4:
 ```
  test('add a vehicle with existing owner information', async ({ page }) => {
     await page.getByRole('link', { name: 'Add a vehicle' }).click();
@@ -64,7 +64,7 @@ This test checks that if 2 entries are entered into the form then it will cause 
 ```
 This test checks that adding a new vehicle with existing owner information on the "Add a vehicle" page will result in the vehicle being added and a additional confirmation message 'Vehicle added successfully' to be displayed on screen. 
 
-#####Test 5:
+##### Test 5:
 ```
 test('test for header, footer, main and sidebar', async ({ page }) => {
     const header = await page.locator('header').count();
