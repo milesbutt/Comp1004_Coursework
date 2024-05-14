@@ -202,6 +202,10 @@ a{
 
 }
 
+ul{
+    list-style-type: none;
+}
+
 #resultsbox p{
     margin: 0px;
 }
